@@ -9,6 +9,10 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter
 import org.springframework.security.core.userdetails.UserDetailsService
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder
+import com.belajar.config.JWTAuthenticationFilter
+import com.belajar.config.JWTAuthorizationFilter
+import com.belajar.config.SIGN_UP_URL
+
 
 @Configuration
 @EnableWebSecurity
