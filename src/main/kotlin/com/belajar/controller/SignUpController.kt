@@ -16,4 +16,4 @@ class SignUpController(val applicationUserRepository: ApplicationUserRepository,
     fun signUp(@RequestBody applicationUser: ApplicationUser) {
         applicationUser.password = bCryptPasswordEncoder.encode(applicationUser.password)
         applicationUserRepository.save(applicationUser)
-    }
+    } }

@@ -21,4 +21,4 @@ open class UserDetailsServiceImpl(val userRepository: ApplicationUserRepository)
 
     fun save(user: ApplicationUser) {
         userRepository.save(user)
-    }
+    } }
